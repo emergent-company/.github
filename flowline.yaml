@@ -1,0 +1,14 @@
+version: 1
+title: Delivery
+timezone: Europe/Oslo
+repos:
+  - {name: emergent-company/emergent-flowline, primary: true}
+board: {owner: emergent-company, number: 2, status_field: Status}
+environments:
+  - {name: dev, role: dev, branch: main, auto: true}
+  - {name: release, role: prod, branch: main}
+epf:
+  repo: emergent-company/emergent-epf
+  path: FIRE/definitions
+  mirror_enabled: true
+  mirror_mode: direct
