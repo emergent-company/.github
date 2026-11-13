@@ -3,6 +3,8 @@ title: Delivery
 timezone: Europe/Oslo
 repos:
   - {name: emergent-company/emergent-flowline, primary: true}
+  - {name: emergent-company/emergent.strategy}
+  - {name: emergent-company/opencode-harness}
 board: {owner: emergent-company, number: 2, status_field: Status}
 epf:
   repo: emergent-company/emergent-epf
